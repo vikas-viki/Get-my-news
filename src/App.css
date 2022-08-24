@@ -1,0 +1,27 @@
+.active{
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  background-color: rgb(2, 177, 241);
+  border-radius: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+nav{
+  position: sticky!important;
+  top: 0px;
+  z-index: 1;
+}
+.nav-link,.btn,.form-control{
+  font-size: 20px;
+  padding: 5px 15px!important
+}
+.navbar-brand{
+  font-size: 35px!important;
+  font-weight: 600;
+  line-height: 5%;
+  background-color: #0d6efd!important;
+}
+.nav-link:hover{
+  background-color: rgba(3, 173, 235, 0.763);
+  border-radius: 5px;
+}
